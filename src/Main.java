@@ -8,7 +8,7 @@ public class Main {
         System.out.println(Arrays.toString(tab));
         System.out.println();
         reverseTableau(tab);
-        Hanoi.HanoiTower(7, 'X', 'Z', 'Y');
+        Hanoi.HanoiTower(8, 'X', 'Z', 'Y');
     }
 
     static void sumProductTableau(int [] tableau){
